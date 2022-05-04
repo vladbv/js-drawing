@@ -1,0 +1,33 @@
+
+.sidebar-colours {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+}
+
+.colours,
+.tools {
+position:fixed;
+top:18em;
+left:16px;
+}
+
+.colour,
+.tool {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+
+.tools {
+  margin-top: 2em;
+}
+
+.tool {
+  background-color: #fff;
+  font-size: 0.9rem;
+  border: 1px solid #000;
+  display: grid;
+  place-items: center;
+}
+
